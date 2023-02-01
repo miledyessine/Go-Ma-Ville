@@ -1,0 +1,107 @@
+@use "../../scss/" as *;
+/* Form container */
+.package-selector {
+    width: fit-content;
+    height: fit-content;
+    margin: 50px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+/* Label for each select element */
+.package-selector__label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Select element */
+.package-selector__select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Default option */
+.package-selector__select option[value=""][disabled] {
+    display: none;
+}
+
+/* Submit button */
+.package-selector button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit button hover effect */
+.package-selector button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+
+
+
+.packag {
+    text-align: center;
+}
+.packag .box {
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+.packag h3 {
+    font-size: 22px;
+    color: $black;
+}
+.priceH{
+    font-size: 60px;
+    color: $black;
+}
+
+.packag h1 span {
+    font-size: 30px;
+    font-weight: 500;
+    color: $black;
+}
+.packag ul {
+    margin-top: 40px;
+}
+.packag ul li {
+    display: flex;
+    margin-bottom: 20px;
+}
+.packag label {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .packag .content {
+    flex-direction: column;
+    }
+
+    .packag .content .box {
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    }
+}

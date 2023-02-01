@@ -1,0 +1,30 @@
+@use "../../scss/" as *;
+
+.formInput{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.inputAuth{
+    padding: 11px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+.spanAuth{
+    font-size: 10px;
+    padding: 1px;
+    color: red;
+    display: none;
+}
+
+.inputAuth:invalid[focused="true"]{
+    border: 1px solid red;
+}
+
+.inputAuth:invalid[focused="true"] ~ .spanAuth{
+    display: block;
+}

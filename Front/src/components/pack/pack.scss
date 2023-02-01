@@ -1,0 +1,60 @@
+@use "../../scss/" as *;
+.pack {
+    text-align: center;
+}
+.pack .content .box {
+    width: 31.5%;
+    padding: 30px;
+    border-radius: 10px;
+}
+.pack button {
+    margin-bottom: 20px;
+}
+.pack .box:nth-child(1) .topbtn button,
+.pack .box:nth-child(3) .topbtn button {
+    display: none;
+}
+.pack h3 {
+    font-size: 22px;
+    color: $black;
+}
+.priceH{
+    font-size: 60px;
+    color: $black;
+}
+
+.pack h1 span {
+    font-size: 30px;
+    font-weight: 500;
+    color: $black;
+}
+.pack ul {
+    margin-top: 40px;
+}
+.pack ul li {
+    display: flex;
+    margin-bottom: 20px;
+}
+.pack label {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.pack .btn5 {
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .pack .content {
+    flex-direction: column;
+    }
+
+    .pack .content .box {
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    }
+}

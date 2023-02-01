@@ -1,0 +1,8 @@
+.service {
+  display: flex;
+  flex-direction: column;
+}
+.row-side{
+  display: flex;
+  flex-direction: row;
+} 

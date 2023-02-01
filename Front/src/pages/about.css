@@ -1,0 +1,59 @@
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+/* About container */
+.about-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title */
+.about-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Introduction paragraph */
+.about-container p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+/* Developers container */
+.developers-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+/* Developer container */
+.developer {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Developer image */
+.developer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Developer name */
+.developer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Developer description */
+.developer p {
+    font-size: 18px;
+    line-height: 1.5;
+}

@@ -1,0 +1,23 @@
+@use "../../scss/" as *;
+.hero {
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.hero .container {
+    padding-top: 15%;
+}
+.container h1 {
+    color: $main-color;
+    font-size: 60px;
+}
+.container p {
+    color: $main-color;
+    opacity: 0.8;
+}
+@media screen and (max-width: 800px) {
+    .hero .container {
+        padding-top: 30%;
+    }
+}
